@@ -17,8 +17,8 @@ app.post("/api", (req, res) => {
 	console.log(messagecontent);
 
 
-	res.setHeader('Content-Type', 'application/json');
-	res.end(JSON.stringify({ Status: true , Message: 'Success'}));
+	//res.setHeader('Content-Type', 'application/json');
+	//res.end(JSON.stringify({ Status: true , Message: 'Success'}));
 const qrcode = require('qrcode-terminal');
 const fs = require('fs');
 const { Client, MessageMedia } = require('whatsapp-web.js');
